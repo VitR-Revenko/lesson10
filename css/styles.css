@@ -1,0 +1,74 @@
+.bckgrnd {
+  max-width: 1000px;
+  background: #c4c4c4;
+ padding: 50px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  background: #fc8f8f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small_card {
+  width: 100px;
+  height: 100px;
+  background: #fc8f8f;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctext {
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sctext {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container {
+  background: #e6e6e6;
+  margin-bottom: 50px;
+}
+
+.container :first-child {
+  float: left;
+}
+
+.container :nth-child(2n) {
+  float: right;
+}
+
+.c_small :first-child {
+  float: left;
+}
+
+.c_small :nth-child(2n) {
+  float: right;
+}
+
+.cardbox :first-child {
+  float: left;
+  margin-right: 15px;
+}
+
+.cardbox :nth-child(2n) {
+  float: right;
+}
